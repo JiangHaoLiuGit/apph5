@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximun-scale=1.0,minimum-scale=1.0,user-scalable=no">
+    <meta http-equiv="cache-control" content="no-cache,no-store,must-revalidate" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="expires" content="0" />
+    <!-- <meta http-equiv="Content-Security-Policy" content="default-src 'self';"> -->
+    <link rel="icon">
+    <title>橘椒</title>
+    <script type="text/javascript" src="./constant.js"></script>
+    <style media="screen" type="text/css">
+      #appLoading { width: 100%; height: 100%; }
+      #appLoading span {
+           position: absolute;
+           display: block;
+           font-size: 50px;
+           line-height: 50px;
+           top: 50%;
+           left: 50%;
+           width: 200px;
+           height: 100px;
+           -webkit-transform: translateY(-50%)  translateX(-50%);
+           transform: translateY(-50%)  translateX(-50%);
+       }
+   </style>
+  </head>
+  <body>
+    <!-- width=device-width ：表示宽度是设备屏幕的宽度
+        initial-scale=1.0：表示初始的缩放比例
+        minimum-scale=0.5：表示最小的缩放比例
+        maximum-scale=2.0：表示最大的缩放比例
+        user-scalable=yes：表示用户是否可以调整缩放比例
+     -->
+    <!-- <noscript>
+      <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+    </noscript> -->
+    <div id="appLoading">
+      <!-- <span>Loading...</span> -->
+    </div>
+    <div id="app">
+      <!-- <script src="./constant.js"></script> -->
+    </div>
+    <!-- built files will be auto injected -->
+  </body>
+</html>

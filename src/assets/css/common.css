@@ -1,0 +1,180 @@
+* {
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-style: normal;
+  /*内容主要字体*/
+  font-family: Microsoft YaHei;
+  padding: 0;
+  margin: 0;
+}
+/* 方正黑体 底部的公司名字，热线电话使用 */
+.ffFZH {
+  font-family: FZHei-B01S;
+}
+
+/* 隐藏滚动条 */
+::-webkit-scrollbar {
+  width: 0px;
+  /* display:none; */
+}
+
+/* 禁止长按选中 */
+body {
+  -moz-user-select: none;
+  /*火狐*/
+  -webkit-user-select: none;
+  /*webkit浏览器*/
+  -ms-user-select: none;
+  /*IE10*/
+  -khtml-user-select: none;
+  /*早期浏览器*/
+  user-select: none;
+
+  -webkit-text-size-adjust: 100% !important;
+  /* background: url(../images/10@2x.png) no-repeat center; */
+  /* background-size: 100% 100%; */
+  /* background-size: cover; */
+}
+
+#app {
+  width: 100%;
+  height: 100%;
+  font-family: FZHei-B01S;
+}
+
+/* 字体颜色 */
+.cw {
+  color: white;
+}
+
+/* 字体粗细 400 等同于 normal，而 700 等同于 bold*/
+.fwb {
+  font-weight: bold;
+}
+
+/* 字体大小 */
+.fs16 {
+  font-size: 16px;
+}
+
+.fs20 {
+  font-size: 20px;
+}
+
+.fs22 {
+  font-size: 22px;
+}
+
+.fs24 {
+  font-size: 24px;
+}
+
+.fs26 {
+  font-size: 26px;
+}
+
+.fs30 {
+  font-size: 30px;
+}
+
+.fs32 {
+  font-size: 32px;
+}
+
+.fs36 {
+  font-size: 36px;
+}
+
+.fs42 {
+  font-size: 42px;
+}
+
+/* 左浮动 */
+.fl {
+  float: left;
+}
+
+/* 右浮动 */
+.fr {
+  float: right;
+}
+
+/* 复选框选中样式 */
+input[type="checkbox"] {
+  margin-right: 4px;
+  -webkit-appearance: none;
+  vertical-align: middle;
+  margin-top: 0;
+  background: #fff;
+  min-height: 50px;
+  min-width: 50px;
+  position: relative;
+  outline: none;
+  border-radius: 6px;
+}
+
+input[type="checkbox"] {
+  width: 50px;
+  height: 50px;
+  background: rgba(240, 247, 253, 1);
+  border: 1px solid rgba(235, 242, 249, 1);
+  border-radius: 6px;
+}
+
+input[type="checkbox"]:checked {
+  background: rgba(200, 228, 251, 1);
+}
+
+
+
+/* 不同背景图 */
+
+/* 清除浮动 */
+.floatfix:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.buttonAc:active {
+  opacity: 0.65;
+}
+
+/* 单选框选中样式 */
+input[type="radio"] {
+  margin-right: 4px;
+  -webkit-appearance: none;
+  vertical-align: middle;
+  margin-top: 0;
+  background: #fff;
+  min-height: 50px;
+  min-width: 50px;
+  position: relative;
+  outline: none;
+  border-radius: 6px;
+}
+
+input[type="radio"] {
+  width: 50px;
+  height: 50px;
+  background: rgba(240, 247, 253, 1);
+  border: 1px solid rgba(235, 242, 249, 1);
+  border-radius: 6px;
+}
+
+input[type="radio"]:checked {
+  background: rgba(200, 228, 251, 1);
+}
+
+
+
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
